@@ -1,0 +1,8 @@
+player (messi)
+"club (arsenal)"
+"player (p) -> -club(p)"
+"club (p) -> -player (p)"
+
+
+player (raheem)
+player (rooney)

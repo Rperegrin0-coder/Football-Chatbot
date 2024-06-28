@@ -1,0 +1,97 @@
+<aiml version="1.0">
+    <!-- Basic Football Rules -->
+    <category>
+        <pattern>WHAT IS OFFSIDE IN FOOTBALL</pattern>
+        <template>Offside in football is when an attacking player is in the opponent's half and ahead of the last defender when the ball is played to them.</template>
+    </category>
+
+    <!-- Premier League Facts -->
+    <category>
+        <pattern>WHO WON THE PREMIER LEAGUE LAST YEAR</pattern>
+        <template>[Team Name] won the Premier League last season.</template>
+    </category>
+
+    <!-- Player Information -->
+    <category>
+        <pattern>WHO IS THE CAPTAIN OF [Team Name]</pattern>
+        <template>The captain of [Team Name] is [Player Name].</template>
+    </category>
+
+    <!-- Historical Records -->
+    <category>
+        <pattern>WHO IS THE ALL TIME TOP SCORER IN THE PREMIER LEAGUE</pattern>
+        <template>Alan Shearer is the all-time top scorer in the Premier League.</template>
+    </category>
+
+    <!-- Match Schedules -->
+    <category>
+        <pattern>WHEN IS THE NEXT MATCH FOR [Team Name]</pattern>
+        <template>[Team Name]'s next match is on [Date].</template>
+    </category>
+
+    <!-- Recent Match Results -->
+    <category>
+        <pattern>DID [Team Name] WIN THEIR LAST MATCH</pattern>
+        <template>Yes, [Team Name] won their last match. / No, [Team Name] did not win their last match.</template>
+    </category>
+
+    <!-- Team Performance -->
+    <category>
+        <pattern>HOW IS [Team Name] PERFORMING THIS SEASON</pattern>
+        <template>[Team Name] is currently at [Position] in the league.</template>
+    </category>
+
+    <!-- Football Terminology -->
+    <category>
+        <pattern>WHAT IS A HAT TRICK IN FOOTBALL</pattern>
+        <template>A hat-trick is when a player scores three goals in a single game.</template>
+    </category>
+
+    <!-- Awards and Honors -->
+    <category>
+        <pattern>WHO WON THE BALLON DOR LAST YEAR</pattern>
+        <template>The Ballon d'Or was won by [Player Name] last year.</template>
+    </category>
+
+    <!-- Famous Football Events -->
+    <category>
+        <pattern>WHEN IS THE NEXT WORLD CUP</pattern>
+        <template>The next FIFA World Cup is scheduled for [Year].</template>
+    </category>
+    
+    <!-- Greeting Patterns -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hello! How are you?</template>
+    </category>
+
+    <category>
+        <pattern>HELLO *</pattern>
+        <template><srai>HELLO</srai></template>
+    </category>
+
+    <!-- ... more categories ... -->
+    <!-- Farewell Patterns -->
+    <category>
+        <pattern>BYE</pattern>
+        <template>Bye! Nice talking to you. You take care now.</template>
+    </category>
+
+    <category>
+        <pattern>GOODBYE</pattern>
+        <template><srai>BYE</srai></template>
+    </category>
+
+     <!-- ... livescore ... -->
+    <category>
+    <pattern>LIVESCORE</pattern>
+    <template>For live scores, please specify the team you are interested in.</template>
+    </category>
+
+    <category>
+    <pattern>LIVESCORE FOR *</pattern>
+    <template>Checking live score for <star/>. Please wait...</template>
+    </category>
+
+
+</aiml>

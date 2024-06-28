@@ -1,0 +1,22 @@
+clubs = [
+    "arsenal",
+   "aston-villa",
+    "brentford",
+    "brighton",
+    "burnley",
+    "chelsea",
+    "crystal-palace",
+    "everton",
+    "leeds",
+    "leicester-city",
+    "liverpool",
+    "manchester-city",
+    "manchester-united",
+    "newcastle",
+    "norwich",
+    "southampton",
+    "tottenham",
+    "watford",
+    "west-ham",
+    'wolves'
+]
